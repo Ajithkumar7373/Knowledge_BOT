@@ -8,18 +8,31 @@ A powerful document-based chatbot that lets you upload PDFs and images and ask n
 📂 Features
 
 ✅ Upload multiple PDF and image files
+
+
 ✅ Extract and split content using LangChain
+
+
 ✅ Embed with Ollama Embeddings (nomic-embed-text)
+
+
 ✅ Store and retrieve chunks using ChromaDB
+
+
 ✅ Answer queries using ChatOllama (gemma:2b or any model)
+
+
 ✅ Frontend in Streamlit
+
 ✅ Backend in FastAPI
 
 🛠️ Project Structure
 
 knowledge-bot/
+
 ├── backend/
-│   ├── main.py               # FastAPI backend entrypoint
+
+│   ├── main.py # FastAPI backend entrypoint
 │   ├── rag_pipeline.py       # RAG pipeline logic
 │   ├── config.py             # CORS setup
 │   └── uploaded_files/       # Directory where files are stored
