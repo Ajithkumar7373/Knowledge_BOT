@@ -31,13 +31,19 @@ A powerful document-based chatbot that lets you upload PDFs and images and ask n
 knowledge-bot/
 
 ├── backend/
-
+|
 │   ├── main.py # FastAPI backend entrypoint
-│   ├── rag_pipeline.py       # RAG pipeline logic
-│   ├── config.py             # CORS setup
-│   └── uploaded_files/       # Directory where files are stored
+│   
+|    ├── rag_pipeline.py       # RAG pipeline logic
+│   
+|    ├── config.py             # CORS setup
+│   
+    └── uploaded_files/       # Directory where files are stored
+
 ├── frontend/
-│   └── app.py                # Streamlit UI
+|      
+│  └── app.py                # Streamlit UI
+|
 └── README.md
 
 🧑‍💻 How It Works
